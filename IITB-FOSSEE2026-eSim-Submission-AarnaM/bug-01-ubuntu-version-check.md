@@ -61,8 +61,6 @@ Added a `25.04` case that falls back to the `24.04` script as a workaround, with
     ;;
 ```
 
-## Impact Level
-🔴 **CRITICAL** — This bug completely blocks installation from starting on Ubuntu 25.04. No other bugs can be reached without fixing this one first.
 
 ## Permanent Fix Recommendation
 A dedicated `install-eSim-25.04.sh` script should be created, adapted for Ubuntu 25.04's updated system libraries, Python version, and package availability.
