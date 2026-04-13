@@ -47,9 +47,6 @@ elif [[ "$ubuntu_version" == "25.04" ]]; then
     kicadppa="kicad/kicad-8.0-releases"
 ```
 
-## Impact Level
-🔴 **CRITICAL** — Blocks KiCad installation entirely, which is a core component of eSim. Without KiCad, the eSim GUI cannot function.
-
 ## Notes
 - The `kicad/kicad-6.0-releases` PPA (used for older Ubuntu versions) also has no Plucky release — this applies to both PPA variants.
 - As of the time of testing, the KiCad team had not yet published a Plucky-native build.
