@@ -1,8 +1,8 @@
-# IIT Bombay FOSSEE 2026
+# IIT Bombay FOSSEE 2026 Submission
 ## eSim 2.5 — Ubuntu 25.04 Installation Bug Report
 
 **Author:** Aarna Manjunath  
-**Repo:** 
+**Repo:** https://github.com/aarna-manjunath/eSim/blob/installers/IITB-FOSSEE2026-eSim-Submission-AarnaM/
 
 **eSim Version:** 2.5  
 **Test OS:** Ubuntu 25.04 (Plucky Puffin)  
@@ -18,13 +18,12 @@ This report documents the bugs encountered when attempting to install eSim 2.5 o
 
 ## Bug Summary
 
-| # | Bug | Severity | Status |
-|---|-----|----------|--------|
-| 01 | Ubuntu 25.04 not in version check — script exits immediately | 🔴 Critical | ✅ Fixed |
-| 02 | KiCad PPA has no Plucky (25.04) release — 404 error | 🔴 Critical | ✅ Fixed (workaround) |
-| 03 | `apt-key` command removed in Ubuntu 25.04 | 🟠 High | ✅ Fixed |
-| 04 | `/root/.gnupg` directory missing, GPG operations fail | 🟠 High | ✅ Fixed |
-| 05 | KiCad PPA packages incompatible with Ubuntu 25.04 libraries | 🔴 Critical | ✅ Fixed (workaround) |
+| # | Bug | Status |
+|---|-----|--------|
+| 01 | Ubuntu 25.04 not in version check  (script exits immediately) | ✅ Fixed |
+| 02 | KiCad PPA has no Plucky (25.04) release (404 error) | ✅ Fixed (workaround) |
+| 03 | `apt-key` command removed in Ubuntu 25.04 | NA |
+| 04 | KiCad PPA packages incompatible with Ubuntu 25.04 libraries | NA |
 
 
 
@@ -39,11 +38,10 @@ This report documents the bugs encountered when attempting to install eSim 2.5 o
 
 Each bug has its own dedicated file:
 
-- [`bug-01-ubuntu-version-check.md`](./bug-01-ubuntu-version-check.md)
-- [`bug-02-kicad-ppa-no-plucky.md`](./bug-02-kicad-ppa-no-plucky.md)
-- [`bug-03-apt-key-removed.md`](./bug-03-apt-key-removed.md)
-- [`bug-04-gnupg-missing.md`](./bug-04-gnupg-missing.md)
-- [`bug-05-kicad-library-conflicts.md`](./bug-05-kicad-library-conflicts.md)
+- [`bug-01-ubuntu-version-check.md`](https://github.com/aarna-manjunath/eSim/blob/installers/IITB-FOSSEE2026-eSim-Submission-AarnaM/bug-01-ubuntu-version-check.md)
+- [`bug-02-kicad-ppa-no-plucky.md`](https://github.com/aarna-manjunath/eSim/blob/installers/IITB-FOSSEE2026-eSim-Submission-AarnaM/bug-02-kicad-ppa-no-plucky.md)
+- [`bug-03-apt-key-removed.md`](https://github.com/aarna-manjunath/eSim/blob/installers/IITB-FOSSEE2026-eSim-Submission-AarnaM/bug-03-apt-key-removed.md)
+- [`bug-04-kicad-library-conflicts.md`](https://github.com/aarna-manjunath/eSim/blob/installers/IITB-FOSSEE2026-eSim-Submission-AarnaM/bug-04-kicad-library-conflicts.md)
 
 
-Each file contains: error message, root cause, fix applied, impact level, and recommendations.
+Each file contains the Problem and Root Cause. 
