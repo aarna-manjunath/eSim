@@ -15,7 +15,7 @@ E: Unable to correct problems, you have held broken packages.
 ```
 
 ## Root Cause
-Even after successfully adding the KiCad 8.0 PPA with the correct GPG key (Bugs #02–#03), the PPA package itself (`kicad 8.0.9`) was compiled against Ubuntu 24.04's system libraries. Ubuntu 25.04 ships with newer versions of those libraries that are not backward-compatible:
+Even after successfully adding the KiCad 8.0 PPA with the correct GPG key, the PPA package itself (`kicad 8.0.9`) was compiled against Ubuntu 24.04's system libraries. Ubuntu 25.04 ships with newer versions of those libraries that are not backward-compatible:
 
 | Library | Required by PPA | Available on Ubuntu 25.04 |
 |---|---|---|
